@@ -1,0 +1,20 @@
+{
+  "name": "color-converter",
+  "version": "0.0.1",
+  "description": "RGB/hexadecimal color converter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/server.js",
+    "test": "mocha --reporter spec"
+  },
+  "repository": "https://github.com/emyarod/color-converter.git",
+  "author": "emyarod <afw5059@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.14.1",
+    "mocha": "^3.2.0",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {}
+}
